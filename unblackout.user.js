@@ -8,7 +8,7 @@ function show() {
     var overlay = document.getElementById('mw-sopaOverlay');
     if(overlay) {
         ids.forEach(function(id) {
-            document.getElementById(id).style.display = 'block';
+            document.getElementById(id).style.display = 'inherit';
         });
         overlay.style.display = 'none';
     } else {
